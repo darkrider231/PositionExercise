@@ -62,14 +62,14 @@ body {
   /* START BELOW THIS LINE */
   /* The default position value that all html elements start off with */
   /* #1 */
-  html {
+  /* html {
       position: static;
-  }
+  } */
 
   /* #2 */
   #power {
       position: relative;
-      right: 255px;
+      right: 225px;
   }
 
   /* #3 */
@@ -92,7 +92,7 @@ body {
   #reality {
       /* Bonus #1 */
       position: absolute;
-      top: 150px;
+      bottom: 150px;
       right: 0px;
       z-index: 2;
   }
@@ -113,13 +113,14 @@ body {
   }
 
   /* #8 */
-  h1, h2 {
+  h1 {
       position: sticky;
       top: 0px;
   }
 
-  h2 {
+  h1{
       /* Bonus #3 */
       position: sticky;
       top: 65px;
+      z-index: 1;
   }
